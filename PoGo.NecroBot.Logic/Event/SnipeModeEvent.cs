@@ -8,8 +8,8 @@ using POGOProtos.Data;
 
 namespace PoGo.NecroBot.Logic.Event
 {
-    public class PokemonListEvent : IEvent
+    public class SnipeModeEvent : IEvent
     {
-        public List<Tuple<PokemonData, double>> PokemonList;
+        public bool Active;
     }
 }
